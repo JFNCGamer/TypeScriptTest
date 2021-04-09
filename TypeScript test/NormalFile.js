@@ -14,6 +14,7 @@ var thirduser = "Pai";
 var thirduserage = 49;
 console.log(characterusername(user));
 console.log(characterage(age));
+console.log("");
 function secondcharacterusername(user) {
     return "Nome: " + seconduser;
 }
@@ -22,6 +23,7 @@ function secondcharacterage(user) {
 }
 console.log(secondcharacterusername(seconduser));
 console.log(secondcharacterage(seconduserage));
+console.log("");
 function thirdcharacterusername(user) {
     return "Nome: " + thirduser;
 }

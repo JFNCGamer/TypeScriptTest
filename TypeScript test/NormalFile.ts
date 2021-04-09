@@ -18,6 +18,7 @@ var thirduserage = 49
 
 console.log( characterusername(user) );
 console.log( characterage(age) );
+console.log("");
 
 function secondcharacterusername(user: string) {
     return "Nome: " + seconduser;
@@ -28,6 +29,7 @@ function secondcharacterage(user: number) {
 
 console.log( secondcharacterusername(seconduser) );
 console.log( secondcharacterage(seconduserage) );
+console.log("");
 
 function thirdcharacterusername(user: string) {
     return "Nome: " + thirduser;
