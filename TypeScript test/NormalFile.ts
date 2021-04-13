@@ -10,11 +10,14 @@ function characterage(age: number) {
 var user = "João"
 var age = 10
 
-var seconduser = "Joana"
+var seconduser = "Mãe"
 var seconduserage = 43
 
 var thirduser = "Pai"
 var thirduserage = 49
+
+var fourthuser = "Ninha"
+var fourthuserage = 4
 
 console.log( characterusername(user) );
 console.log( characterage(age) );
@@ -40,3 +43,16 @@ function thirdcharacterage(age: number) {
 
 console.log( thirdcharacterusername(thirduser) );
 console.log( thirdcharacterage(thirduserage) );
+console.log("");
+
+function fourthcharctername(user: string) {
+    return "Nome: " + fourthuser;
+}
+
+function fourthcharacterage(age: number) {
+    return "Idade: " + fourthuserage + " anos";
+}
+
+console.log( fourthcharctername(fourthuser) );
+console.log( fourthcharacterage(fourthuserage) );
+console.log("");
